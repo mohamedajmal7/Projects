@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/appName"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/timer_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:shadowColor="#FF3D00"
+        android:text="@string/timer"
+        android:textColorHighlight="#FF3D00"
+        android:textColorLink="@android:color/holo_orange_dark"
+        android:textCursorDrawable="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_name"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/identifyCarMakeBtn"
+        android:layout_width="245dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+
+        android:text="@string/identify_car_make_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_name"
+
+        />
+
+    <Button
+        android:id="@+id/hintsBtn"
+        android:layout_width="254dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/hints_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/identifyCarMakeBtn" />
+
+    <Button
+        android:id="@+id/identifyCarImageBtn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/identify_the_car_image_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hintsBtn" />
+
+    <Button
+        android:id="@+id/advancedLevelBtn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/advanced_level_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/identifyCarImageBtn" />
+
+    <TextView
+        android:id="@+id/signature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:text="@string/aj_designs_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

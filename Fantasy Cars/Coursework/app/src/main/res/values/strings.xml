@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Fantasy Cars</string>
+    <string name="appName">Fantasy Cars</string>
+    <string name="identify_car_make_button">Identify car make</string>
+    <string name="hints_button">Hints</string>
+    <string name="identify_the_car_image_button">Identify the car image</string>
+    <string name="advanced_level_button">Advanced Level</string>
+    <string name="aj_designs_text">AJ Designs</string>
+    <string name="select_the_car_brand_text">Select the car Brand</string>
+    <string name="submitBtn_txt">Submit</string>
+    <string name="hintPageTitle">Correctly Identify the Brands</string>
+    <string name="AdvanceHint">Guess the Car Brand</string>
+
+    <string name="identifyBtn">Identify</string>
+    <string name="hintTitle">Guess the Brand</string>
+    <string name="timer">Timer</string>
+    <string name="identify_the_correct_car">Identify The correct Car</string>
+    <string name="nextBtn">Next</string>
+    <string-array name="brand_names">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Mercedes Benz</item>
+        <item>Ford</item>
+        <item>Rolls Royce</item>
+        <item>Honda</item>
+        <item>Toyota</item>
+
+
+    </string-array>
+
+</resources>
